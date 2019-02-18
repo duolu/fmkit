@@ -9,7 +9,7 @@ The FMKit library contains a set of Python code and scripts to model and process
 
 ## The Data Repository
 
-Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting passcode and biometrics. Two devices are used (shown in the following figure): a wearable device (a custom-made data glove with inertial sensors) and a contactless 3D camera (the Leap Motion controller). The data repository contains the following five parts.
+Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting passcode and biometrics. Two devices are used (shown in the following figure): a wearable device (a custom-made data glove with inertial sensors) and a contactless 3D camera (the Leap Motion controller). The data repository contains the following five datasets.
 
 ![Device illustration.](pics/devices.png)
 
@@ -24,11 +24,25 @@ In this setting, the imposters can watch the recorded video of the in-air-handwr
 
 (4) Long-Term Persistence Study: We kept collecting the sign-in in-air-handwriting of a subset of the users in the first dataset for a period of about 4 weeks, which simulates login activity in the long term. Similar to the procedure in the first dataset, the user wrote each string 5 repetitions as registration. After that, the users wrote the strings for the account ID and the account passcode 5 repetitions in a single day as a session, and at least 2 sessions each week, in total 10 sessions at least. 22 users participated this dataset and in total there are 44 * 5 * 2 + 44 * 10 * 5 * 2 = 4,840 data samples.
 
-(2) Spoofing with Semantic Leakage: We asked 10 users to write 210 English words and 210 Chinese words with 5 repetitions for each word with both devices. In total, there are 2 * 210 * 10 * 5 * 2 = 42,000 data samples.
+(2) In-Air-Handwriting Words: We asked 10 users to write 210 English words and 210 Chinese words with 5 repetitions for each word with both devices. In total, there are 2 * 210 * 10 * 5 * 2 = 42,000 data samples.
 
 (6) Usability Survey: We asked the participating users to fill a survey on the usability of gesture sign-in system with various sensors and different types of gestures. 72 users responded to the survey.
 
+## Data Collection Instructions
 
+Here are some detailed instructions for the Leap Motion controller.
+
+For the sign-up and sign-in dataset, three Linux terminals should be opened, one for the Leap Motion daemon process (for typing "sudo leapd"), one for the Leap Motion control panel (for typing "LeapControlPanel"), and the last for the actual data collection program (for typing "python ./sensor_leap.py xxx.txt". At the beginning of writing each string, the participant should hover the hand above the sensor, like that in the following figure. Once the data collection starts, i.e., immediately after the "sensor_leap.py" script executes, the hand should start to move. At the end of writing, the hand should restore to the initial position. The participant can write from left to right or just write every letter at the same place.
+
+![data collection procedure illustration.](pics/procedure.png)
+
+The captured handwriting signal is individually named. For the ID string, it is "id_id_xx.txt", where "xx" the sequence number of the repetition. For example, if the ID string is "duolu", the file is named as "duolu_duolu_01.txt" for the first repetition. For the passcode, similarly, it is "id_passcode_xx.txt". For example, if the ID string is "duolu" and the passcode is "fmcode", the file name is "duolu_fmcode_01.txt". In this way, we can immediately know who writes what in the file directly from the file name.
+
+For the spoofing dataset, the procedure of spoofing with semantic leakage is similar to that in sign-up and sign-in, but with only 5 repetitions for each string. The file name is in the format of "spoofer_string_xx.txt". For example, if the participant is designated to be "spoofer08", and the spoofed string is "fmcode", the file name is "spoofer08_fmcode_01.txt" for the first repetition. For the spoofing with both semantic and visual leakage dataset, the procedure and file name convention are the same.
+
+For the long-term persistant study dataset, the procedure and file name convention are the same as sign-up and sign-in. However, the sequence number of repetitions will linearly increase. For example, if the ID string is "duolu" and the passcode is "fmcode", for the registration, the file name will be "duolu_fmcode_01.txt" to "duolu_fmcode_05.txt". For the first login session, the file names will be "duolu_fmcode_06.txt" to "duolu_fmcode_10.txt". Similarly, for the second login session, the file names will be increased to "duolu_fmcode_11.txt" to "duolu_fmcode_15.txt", and so on.
+
+For the in-air-handwriting words dataset, the procedure and file name convention are the same as spoofing with semantic leakage. Instead of using "spoofer", "user" is used in the file name. For example, if the participant is designated as "user08", and it writes the English words "agree", for the first repetition, the file name would be "user08_agree_01.txt". For Chinese words, a pinyin label is used to denote what is written.
 
 ## Authors
 
