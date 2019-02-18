@@ -66,9 +66,9 @@ A signal s is usually stored as a matrix with l rows and d + 1 columns, where th
 
 ## Authors
 
-* **Duo Lu <duolu@asu.edu>** - main contributor, current maintainer of the project.
-* **Yuli Deng <ydeng19@asu.edu>** - contributor.
-* **Dijiang Huang <dijiang.huang@asu.edu>** - our academic advisor and sponsor.
+* **Duo Lu < duolu AT asu DOT edu >** - main contributor, current maintainer of the project.
+* **Yuli Deng < ydeng19 AT asu DOT edu >** - contributor.
+* **Dijiang Huang < dijiang.huang AT asu DOT edu >** - our academic advisor and sponsor.
 
 ## Papers
 
