@@ -7,7 +7,10 @@ FMKit is a library and data repository for finger motion based user login and in
 
 The FMKit library contains a set of Python code and scripts to model and process in-air-handwriting signals. See the "code" folder. An overview is shown as follows.
 
-* code/fmkit ---> The main library code. The "core" module contains the classes modeling the finger motion signal. The "vis" module contains functions to plot and animate the signal and the trajectory.
+* code/fmkit ---> The main library code. 
+  * The "core" module contains the classes modeling the finger motion signal. 
+  * The "vis" module contains functions to plot and animate the signal and the trajectory.
+  * The "utils" module contains common utility code.
 * code/test ---> Testing code, which can be considered as some examples of using the library.
 * code/data_temp ---> Some example in-air-handwriting signals, collected using two devices.
 
