@@ -37,10 +37,10 @@ In this setting, the imposters can watch the recorded video of the in-air-handwr
 
 ## Papers
 
-* Duo Lu, Dijiang Huang, "FMCode: A 3D In-the-Air Finger Motion Based User Login Framework for Gesture Interface." *arXiv preprint arXiv:1808.00130, 2018.*
-* Duo Lu, Dijiang Huang, "FMHash: Deep Hashing of In-Air-Handwriting for User Identification." *arXiv preprint arXiv:1806.03574, 2018.*
-* Duo Lu, Dijiang Huang, Yuli Deng, and Adel Alshamrani. "Multifactor user authentication with in-air-handwriting and hand geometry." *In 2018 International Conference on Biometrics (ICB), 2018.*
-* Duo Lu, Kai Xu, and Dijiang Huang, "A Data Driven In-Air-Handwriting Biometric Authentication System", *in Proceedings of the International Joint Conference on Biometrics (IJCB), 2017.*
+* Duo Lu, Dijiang Huang, "FMCode: A 3D In-the-Air Finger Motion Based User Login Framework for Gesture Interface." *arXiv preprint arXiv:1808.00130, 2018.* [[pdf]](/papers/fmcode.pdf)
+* Duo Lu, Dijiang Huang, "FMHash: Deep Hashing of In-Air-Handwriting for User Identification." *arXiv preprint arXiv:1806.03574, 2018.* [[pdf]](/papers/fmhash.pdf)
+* Duo Lu, Dijiang Huang, Yuli Deng, and Adel Alshamrani. "Multifactor user authentication with in-air-handwriting and hand geometry." *In 2018 International Conference on Biometrics (ICB), 2018.* [[pdf]](/papers/multifactor.pdf)
+* Duo Lu, Kai Xu, and Dijiang Huang, "A Data Driven In-Air-Handwriting Biometric Authentication System", *in Proceedings of the International Joint Conference on Biometrics (IJCB), 2017.* [[pdf]](/papers/data-driven.pdf)
 
 ## License
 
