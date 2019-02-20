@@ -18,7 +18,7 @@ Here only the core of the library is uploaded. The majority of the library is st
 
 ## The Data Repository
 
-Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting passcode and biometrics. Two devices are used (shown in the following figure): a wearable device (a custom-made data glove with inertial sensors) and a contactless 3D camera (the Leap Motion controller). The data repository contains the following five datasets.
+Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting passcode and biometrics. We have IRB approval of this data collection (Arizona State University STUDY00008279). Two devices are used (shown in the following figure): a wearable device (a custom-made data glove with inertial sensors) and a contactless 3D camera (the Leap Motion controller). The data repository contains the following five datasets.
 
 ![Device illustration.](pics/devices.png)
 
