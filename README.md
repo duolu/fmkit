@@ -1,6 +1,6 @@
-# FMKit - A Library and Data Repository for In-Air-Handwriting
+# FMKit - A Library and Data Repository for In-Air-Handwriting Analysis
 
-FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See the demo [here](https://youtu.be/O3Jqq9yqJSE) and [here](https://www.youtube.com/watch?v=asxqpF7dH10)
+FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See the demo [here](https://youtu.be/O3Jqq9yqJSE) and [here](https://www.youtube.com/watch?v=asxqpF7dH10).
 
 
 ## The FMKit Library
@@ -18,13 +18,13 @@ The FMKit library contains a set of Python code and scripts to model and process
 
 ## The Data Repository
 
-Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting. We have IRB approval of this data collection (Arizona State University STUDY00008279). If you would like to use the data in your research, please send us an email (see the "author" section below).
+Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting. We have IRB approval of this data collection (Arizona State University STUDY00008279 and STUDY00010539). If you would like to use the data in your research, please send us an email (see the "authors" section below).
 
 Two devices are used (shown in the following figure): a wearable device (a custom-made data glove with inertial sensors) and a contactless 3D camera (the Leap Motion controller). The data repository contains the following five datasets.
 
 ![Device illustration.](pics/devices.png)
 
-**(1) Sign-up and Sign-in**: We asked each participating user to create two distinct meaningful strings and write them in-the-air, one as an account ID and the other as an account passcode. Such a string may include alphanumeric letters, characters in a language other than English, or meaningful symbols such as five-pointed stars. The content of the string is determined by the user. Hence, each string can be used as either an ID or a passcode. For each string, we asked the user to write it 5 repetitions as registration and another 5 repetitions as login attempts. This simulates the normal sign-up and sign-in procedure (shown in the following figure). In total 180 users participated the data collection and 360 strings are obtained. In total, there are 360 (strings) * 10 (repetitions) * 2 (devices) = 7,200 signals
+**(1) Sign-up and Sign-in**: We asked each participating user to create two distinct meaningful strings and write them in-the-air, one as an account ID and the other as an account passcode. Such a string may include alphanumeric letters, characters in a language other than English, or meaningful symbols such as five-pointed stars. The content of the string is determined by the user. Hence, each string can be used as either an ID or a passcode. For each string, we asked the user to write it 5 repetitions as registration and another 5 repetitions as login attempts. This simulates the normal sign-up and sign-in procedure (shown in the following figure). In total 180 users participated the data collection and 360 strings are obtained. In total, there are 360 (strings) * 10 (repetitions) * 2 (devices) = 7,200 signals.
 
 ![Sign-in illustruction.](pics/sign-in.png)
 
@@ -46,13 +46,13 @@ The procedure for the data glove is similar. Only one Linux console terminal is 
 
 ![data collection procedure illustration.](pics/procedure.png)
 
-The captured handwriting signal is individually named. For the ID string, it is "id_id_xx.txt", where "xx" the sequence number of the repetition. For example, if the ID string is "duolu", the file is named as "duolu_duolu_01.txt" for the first repetition. For the passcode, similarly, it is "id_passcode_xx.txt". For example, if the ID string is "duolu" and the passcode is "fmcode", the file name is "duolu_fmcode_01.txt". In this way, we can immediately know who writes what in the file directly from the file name.
+The captured handwriting signal is individually named. For the ID string, it is "id_id_xx.txt", where "xx" the sequence number of the repetition. For example, if the ID string is "duolu", the file is named as "duolu_duolu_01.txt" for the first repetition. For the passcode, similarly, it is "id_passcode_xx.txt". For example, if the ID string is "duolu" and the passcode is "fmcode", the file name is "duolu_fmcode_01.txt". In this way, we can immediately know which user writes what content from the file name while debugging code and tuning trained models. If the user choose to write in Chinese, pinyin is used in the file name to indicate the content.
 
 For the spoofing dataset, the procedure of spoofing with semantic leakage is similar to that in sign-up and sign-in, but with only 5 repetitions for each string. The file name is in the format of "spoofer_string_xx.txt". For example, if the participant is designated to be "spoofer08", and the spoofed string is "fmcode", the file name is "spoofer08_fmcode_01.txt" for the first repetition. For the spoofing with both semantic and visual leakage dataset, the procedure and file name convention are the same.
 
-For the long-term persistant study dataset, the procedure and file name convention are the same as sign-up and sign-in. However, the sequence number of repetitions will linearly increase. For example, if the ID string is "duolu" and the passcode is "fmcode", for the registration, the file name will be "duolu_fmcode_01.txt" to "duolu_fmcode_05.txt". For the first login session, the file names will be "duolu_fmcode_06.txt" to "duolu_fmcode_10.txt". Similarly, for the second login session, the file names will be increased to "duolu_fmcode_11.txt" to "duolu_fmcode_15.txt", and so on.
+For the long-term persistance study dataset, the procedure and file name convention are the same as sign-up and sign-in. However, the sequence number of repetitions will linearly increase. For example, if the ID string is "duolu" and the passcode is "fmcode", for the registration, the file name will be "duolu_fmcode_01.txt" to "duolu_fmcode_05.txt". For the first login session, the file names will be "duolu_fmcode_06.txt" to "duolu_fmcode_10.txt". Similarly, for the second login session, the file names will be increased to "duolu_fmcode_11.txt" to "duolu_fmcode_15.txt", and so on.
 
-For the in-air-handwriting words dataset, the procedure and file name convention are the same as spoofing with semantic leakage. Instead of using "spoofer", "user" is used in the file name. For example, if the participant is designated as "user08", and it writes the English words "agree", for the first repetition, the file name would be "user08_agree_01.txt". For Chinese words, a pinyin label is used to denote what is written.
+For the in-air-handwriting words dataset, the procedure and file name convention are the same as spoofing with semantic leakage. Instead of using "spoofer", "user" is used in the file name. For example, if the participant is designated as "user08", and it writes the English words "agree", for the first repetition, the file name would be "user08_agree_01.txt". For Chinese words, pinyin is used in the file name.
 
 ## Data Format
 
