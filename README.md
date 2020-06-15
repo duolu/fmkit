@@ -1,4 +1,4 @@
-# FMKit - A Finger Motion Analysis Library and Data Repository
+# FMKit - A Library and Data Repository for In-Air-Handwriting
 
 FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See the demo [here](https://youtu.be/O3Jqq9yqJSE) and [here](https://www.youtube.com/watch?v=asxqpF7dH10)
 
