@@ -1,6 +1,6 @@
 # FMKit - A Finger Motion Analysis Library and Data Repository
 
-FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis.
+FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See the demo [here](https://youtu.be/O3Jqq9yqJSE) and [here](https://www.youtube.com/watch?v=asxqpF7dH10)
 
 
 ## The FMKit Library
@@ -14,15 +14,17 @@ The FMKit library contains a set of Python code and scripts to model and process
 * code/test ---> Testing code, which can be considered as some examples of using the library.
 * code/data_temp ---> Some example in-air-handwriting signals, collected using two devices.
 
-Here only the core of the library is uploaded. The majority of the library is still mainly under development. Most of the code that generates the results in the papers are quite messy and not well documented. They will be gradually uploaded once the code is cleaned and annotated.
+
 
 ## The Data Repository
 
-Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting passcode and biometrics. We have IRB approval of this data collection (Arizona State University STUDY00008279). Two devices are used (shown in the following figure): a wearable device (a custom-made data glove with inertial sensors) and a contactless 3D camera (the Leap Motion controller). The data repository contains the following five datasets.
+Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting. We have IRB approval of this data collection (Arizona State University STUDY00008279). If you would like to use the data in your research, please send us an email (see the "author" section below).
+
+Two devices are used (shown in the following figure): a wearable device (a custom-made data glove with inertial sensors) and a contactless 3D camera (the Leap Motion controller). The data repository contains the following five datasets.
 
 ![Device illustration.](pics/devices.png)
 
-**(1) Sign-up and Sign-in**: We asked each participating user to create two distinct meaningful strings and write them in-the-air, one as an account ID and the other as an account passcode. Such a string may include alphanumeric letters, characters in a language other than English, or meaningful symbols such as five-pointed stars. The requirements of the account ID and the account passcode are the same. Hence, each string can be used as either an ID or a passcode. For each string, we asked the user to write it 5 repetitions as registration and another 5 repetitions as login attempts. This simulates the normal sign-up and sign-in procedure (shown in the following figure). In total 129 users participated the data collection and 258 strings are obtained. 
+**(1) Sign-up and Sign-in**: We asked each participating user to create two distinct meaningful strings and write them in-the-air, one as an account ID and the other as an account passcode. Such a string may include alphanumeric letters, characters in a language other than English, or meaningful symbols such as five-pointed stars. The requirements of the account ID and the account passcode are the same. Hence, each string can be used as either an ID or a passcode. For each string, we asked the user to write it 5 repetitions as registration and another 5 repetitions as login attempts. This simulates the normal sign-up and sign-in procedure (shown in the following figure). In total 180 users participated the data collection and 360 strings are obtained. In total, there are 360 * 10 * 2 = 7,200 signals
 
 ![Sign-in illustruction.](pics/sign-in.png)
 
@@ -68,6 +70,7 @@ A signal s is usually stored as a matrix with l rows and d + 1 columns, where th
 
 * **Duo Lu < duolu AT asu DOT edu >** - main contributor, current maintainer of the project.
 * **Yuli Deng < ydeng19 AT asu DOT edu >** - contributor.
+* **Linzhen Luo < lluo21 AT asu DOT edu >** - contributor.
 * **Dijiang Huang < dijiang.huang AT asu DOT edu >** - our academic advisor and sponsor.
 
 ## Papers
