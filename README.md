@@ -88,4 +88,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 We would like to thank all participants and volunteers who helped us collecting the data.
 
-This project is supported by NSF CCRI award #1925709.
+This project is supported by NSF CCRI award [#1925709](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1925709).
