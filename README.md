@@ -21,7 +21,7 @@ The FMKit library contains a set of Python code and scripts to model and process
 
 ## The Data Repository
 
-Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting. We have IRB approval of this data collection (Arizona State University STUDY00008279 and STUDY00010539). If you would like to use the data in your research, please send us an email (see the "authors" section below). Currently, the "word-210" dataset is openly available [here](https://drive.google.com/drive/folders/1RXj0t8NMYt_Jr5lW-BIeAIxw4aX5VshV?usp=sharing).
+Here is a description of the dataset we have collected to facilitate our research on in-air-handwriting. We have IRB approval of this data collection (Arizona State University STUDY00008279 and STUDY00010539). Currently, the "word-210" dataset is openly available [here](https://drive.google.com/drive/folders/1RXj0t8NMYt_Jr5lW-BIeAIxw4aX5VshV?usp=sharing). If you would like to use other datasets related to in-air-handwriting of ID and passcode, please send us an email application (see the "authors" section below). 
 
 Two devices are used (shown in the following figure): a wearable device (a custom-made data glove with inertial sensors) and a contactless 3D camera (the Leap Motion controller). The data repository contains the following five datasets.
 
