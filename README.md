@@ -13,7 +13,8 @@ The FMKit library contains a set of Python code and scripts to model and process
   * The "fmsignal" module contains the classes modeling the finger motion signal. 
   * The "fmvis" module contains functions to plot and animate the signal and the trajectory.
   * The "fmutils" module contains common utility code.
-  * The "pyrotation" and "pyrotation_demo" are copied from the [pyrotation](https://github.com/duolu/pyrotation) project, which is necessary for finger motion signal preprocessing.
+  * The "pyrotation" and "pyrotation_demo" modules are copied from the [pyrotation](https://github.com/duolu/pyrotation) project, which is necessary for finger motion signal preprocessing.
+  * The "fmbrowser" module is an interactive visualization tool to browse the dataset. See out wiki page [here](https://github.com/duolu/fmkit/wiki/Data-Browser).
 * code_cutils ---> Utility code written in C to speed up the Dynamic Time Warping calculation.
 * data_example ---> Some example in-air-handwriting signals, collected using two devices.
 
