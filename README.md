@@ -41,21 +41,6 @@ Two devices are used (shown in the following figure): a wearable device (a custo
 
 **(6) Usability Survey**: We asked the participating users to fill a survey on the usability of gesture sign-in system with various sensors and different types of gestures. 72 users responded to the survey.
 
-## Data Collection Procedures
-
-Here is the detailed procedure for the Leap Motion controller. The data collection is done on several identical Linux desktop and laptop machines. On each machine, three Linux console terminals should be opened, one for the Leap Motion daemon process (typing "sudo leapd"), one for the Leap Motion control panel (typing "LeapControlPanel"), and the last for the actual data collection program (typing "python ./sensor_leap.py xxx.txt" or launch the client with a GUI). At the beginning of writing each string, the participant should hover the hand above the sensor, like that in the following figure. Once the data collection starts, i.e., immediately after the "sensor_leap.py" script executes or the "start/stop" button is clicked, the hand should start to move. At the end of writing, the hand should restore to the initial position. The data collection program can be stopped by the user (press the "space" key or clicking the "start/stop" button), or it can automatically stop if the user's hand stops moving for roughly 0.8 seconds. The participant can write from left to right or just write every letter at the same place. The user is not required to write in a legible way.
-
-The procedure for the data glove is similar. Only one Linux console terminal is needed for the actual data collection program. Different from the Leap Motion controller where the user must write within the field of view of the sensor, the data glove does not have such a constraints. The user can just start moving after the data collection program starts to collect data. When the user finishes writing, the data collection program can be stopped in the same way as that for the Leap Motion controller.
-
-![data collection procedure illustration.](pics/procedure.png)
-
-The captured handwriting signal is individually named. For the ID string, it is "id_id_xx.txt", where "xx" the sequence number of the repetition. For example, if the ID string is "duolu", the file is named as "duolu_duolu_01.txt" for the first repetition. For the passcode, similarly, it is "id_passcode_xx.txt". For example, if the ID string is "duolu" and the passcode is "fmcode", the file name is "duolu_fmcode_01.txt". In this way, we can immediately know which user writes what content from the file name while debugging code and tuning trained models. If the user choose to write in Chinese, pinyin is used in the file name to indicate the content.
-
-For the spoofing dataset, the procedure of spoofing with semantic leakage is similar to that in sign-up and sign-in, but with only 5 repetitions for each string. The file name is in the format of "spoofer_string_xx.txt". For example, if the participant is designated to be "spoofer08", and the spoofed string is "fmcode", the file name is "spoofer08_fmcode_01.txt" for the first repetition. For the spoofing with both semantic and visual leakage dataset, the procedure and file name convention are the same.
-
-For the long-term persistance study dataset, the procedure and file name convention are the same as sign-up and sign-in. However, the sequence number of repetitions will linearly increase. For example, if the ID string is "duolu" and the passcode is "fmcode", for the registration, the file name will be "duolu_fmcode_01.txt" to "duolu_fmcode_05.txt". For the first login session, the file names will be "duolu_fmcode_06.txt" to "duolu_fmcode_10.txt". Similarly, for the second login session, the file names will be increased to "duolu_fmcode_11.txt" to "duolu_fmcode_15.txt", and so on.
-
-For the in-air-handwriting words dataset, the procedure and file name convention are the same as spoofing with semantic leakage. Instead of using "spoofer", "user" is used in the file name. For example, if the participant is designated as "user08", and it writes the English words "agree", for the first repetition, the file name would be "user08_agree_01.txt". For Chinese words, pinyin is used in the file name.
 
 ## Data Format
 
