@@ -1,8 +1,0 @@
-# python3 ./setup.py build
-# sudo python3 setup.py install --record ./files.txt
-
-
-# If the build step cannot find numpy header files, run the following first.
-# export CFLAGS="-I $HOME/.local/lib/python3.6/site-packages/numpy/core/include $CFLAGS"
-# Here the path after "-I" is the place where numpy is installed.
-
