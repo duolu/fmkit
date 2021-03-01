@@ -474,7 +474,7 @@ def demo_one_trajectory_animation_with_hand(user=USER, cid=CID):
     raw_signal = load_one_demo_signal_raw(device='leap', user=user, cid=cid)
     raw_signal.preprocess(point='tip')
 
-    trajectory_animation(raw_signal, seg_length=30)
+    trajectory_animation(raw_signal, seg_length=30, show_hand=True)
 
 def demo_orientation_animation(device='glove', user=USER, cid='123456'):
 
@@ -576,36 +576,32 @@ def demo(device):
 if __name__ == '__main__':
     
 
+    demo_raw_signal_io(device='leap', user="alice", cid='FMKit')
+    demo_raw_signal_io(device='leap', user="alice", cid='123456')
 
+    demo_raw_signal_preprocess(device='leap', user="alice", cid='FMKit')
+    demo_raw_signal_preprocess(device='leap', user="alice", cid='123456')
 
+    demo_one_signal_vis()
+    demo_one_signal_vis_with_selected_axes()
+    demo_one_signal_vis_compact()
 
-
-    # demo_raw_signal_io(device, user="alice", cid='FMKit')
-    # demo_raw_signal_io(device, user="alice", cid='123456')
-
-    # demo_raw_signal_preprocess(device, user="alice", cid='FMKit')
-    # demo_raw_signal_preprocess(device, user="alice", cid='123456')
-
-    # demo_one_signal_visualization(device)
-    # demo_one_signal_visualization_selected_axes(device)
-    # demo_one_signal_visualization_compact(device)
-
-    # demo_signals_comparison(device)
-    # demo_signals_comparison_ten_signals(device)
+    demo_signals_comparison()
+    demo_signals_comparison_ten_signals()
     
-    # demo_one_trajectory_vis()
-    # demo_one_trajectory_vis_with_orientation()
-    # demo_trajectories_comparison()
-    # demo_trajectories_comparison_ten_signals()
+    demo_one_trajectory_vis()
+    demo_one_trajectory_vis_with_orientation()
+    demo_trajectories_comparison()
+    demo_trajectories_comparison_ten_signals()
     
-    # demo_one_trajectory_animation()
-    # demo_one_trajectory_animation_with_hand()
-    # demo_orientation_animation()
+    demo_one_trajectory_animation()
+    demo_one_trajectory_animation_with_hand()
+    demo_orientation_animation()
 
-    # demo_signal_alignment()
-    # demo_warping_path()
+    demo_signal_alignment()
+    demo_warping_path()
 
-    # demo_template_construction()
+    demo_template_construction()
     demo_template_io()
     
     pass

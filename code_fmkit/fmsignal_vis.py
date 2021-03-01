@@ -800,7 +800,7 @@ def orientation_animation(signal, speed=1, seg_length=-1):
         ax.set_zlabel('Z')
     
         if i == 1:
-            plt.pause(3)
+            plt.pause(1)
         else:
             plt.pause(0.001)
             if speed < 1:

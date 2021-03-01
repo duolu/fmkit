@@ -311,7 +311,7 @@ def dtw_c(series_1, series_2, window=0, penalty=0):
     # Initialization.
     dist_matrix.fill(1e6)
 
-    dist = fmkit_cutils.dtw_c(
+    dist = fmkit_utilities.dtw_c(
         series_1,
         series_2,
         series_1.shape[1],
