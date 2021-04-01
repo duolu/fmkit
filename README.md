@@ -52,10 +52,10 @@ Two devices are used (shown in the following figure): a wearable device (a custo
 
 ## Authors
 
-* **Duo Lu < duolu AT asu DOT edu >** - main contributor, current maintainer of the project.
-* **Yuli Deng < ydeng19 AT asu DOT edu >** - contributor.
-* **Linzhen Luo < lluo21 AT asu DOT edu >** - contributor.
-* **Dijiang Huang < dijiang.huang AT asu DOT edu >** - our academic advisor and sponsor.
+* **Duo Lu < duolu@asu.edu >** - main contributor, current maintainer of the project.
+* **Yuli Deng < ydeng19@asu.edu >** - contributor.
+* **Linzhen Luo < lluo21@asu.edu >** - contributor.
+* **Dijiang Huang < dijiang.huang@asu.edu >** - our academic advisor and sponsor.
 
 ## Papers
 
