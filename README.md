@@ -52,11 +52,11 @@ Two devices are used (shown in the following figure): a wearable device (a custo
 ## Authors
 
 * **[Duo Lu](https://duolu.github.io/) `<duolu@asu.edu>`** - main contributor, current maintainer of the project.
-* **Yuli Deng <ydeng19@asu.edu>** - contributor.
-* **Linzhen Luo <lluo21@asu.edu>** - contributor.
-* **[Dijiang Huang](http://www.public.asu.edu/~dhuang8/) <dijiang.huang@asu.edu>** - our academic advisor and sponsor.
+* **Yuli Deng `<ydeng19@asu.edu>`** - contributor.
+* **Linzhen Luo `<lluo21@asu.edu>`** - contributor.
+* **[Dijiang Huang](http://www.public.asu.edu/~dhuang8/) `<dijiang.huang@asu.edu>`** - our academic advisor and sponsor.
 
-For dataset usage application, please send an email directly to Duo Lu and Dr. Dijiang Huang, or to the mail list <fmkit@googlegroup.com>.
+For dataset usage application, please send an email directly to Duo Lu and Dr. Dijiang Huang, or to the mail list `<fmkit@googlegroup.com>`.
 
 ## Papers
 
