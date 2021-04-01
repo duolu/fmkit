@@ -1,6 +1,6 @@
 # FMKit - A Library and Data Repository for In-Air-Handwriting Analysis
 
-FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See this [introduction video](https://youtu.be/O3Jqq9yqJSE) and a longer [demo](https://www.youtube.com/watch?v=asxqpF7dH10). Also, see the [documents](https://duolu-fmkit.github.io/). Currently, the "word-210" dataset is openly available [here](https://www.thothlab.com/getgooglefile/1RXj0t8NMYt_Jr5lW-BIeAIxw4aX5VshV). If you would like to use other datasets related to in-air-handwriting of ID and passcode, please fill this [application](https://docs.google.com/document/d/1AHX3lj1mjm4ZZEZTHNdm3xDmJAAWi7P6bIdLlBNZ8PA/edit?usp=sharing) send us an email (see the "authors" section below).
+FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See this [introduction video](https://youtu.be/O3Jqq9yqJSE) and a longer [demo](https://www.youtube.com/watch?v=asxqpF7dH10) on in-air-handwriting word recognition. Also, see the [documents](https://duolu-fmkit.github.io/). Currently, the "word-210" dataset is openly available [here](https://www.thothlab.com/getgooglefile/1RXj0t8NMYt_Jr5lW-BIeAIxw4aX5VshV). If you would like to use other datasets related to in-air-handwriting of ID and passcode, please fill this [application](https://docs.google.com/document/d/1AHX3lj1mjm4ZZEZTHNdm3xDmJAAWi7P6bIdLlBNZ8PA/edit?usp=sharing) send us an email (see the "authors" section below).
 
 [![FMKit Demo](https://img.youtube.com/vi/O3Jqq9yqJSE/0.jpg)](https://www.youtube.com/watch?v=O3Jqq9yqJSE)
 
@@ -9,22 +9,21 @@ FMKit is a library and data repository for finger motion based user login and in
 
 The FMKit library contains a set of Python code and scripts to model and process in-air-handwriting signals. See the "code" folder. An overview is shown as follows.
 
-* code_core ---> The main library code. 
+* code_fmkit ---> The main library code. 
   * The "fmsignal" module contains the classes modeling the finger motion signal. 
   * The "fmsignal_vis" module contains functions to plot and animate the signal and the trajectory.
   * The "fmsignal_demo" module contains contains demo code.
   * The "pyrotation" and "pyrotation_demo" modules are copied from the [pyrotation](https://github.com/duolu/pyrotation) project, which is necessary for finger motion signal preprocessing.
 * code_utilities ---> Utility code written in C to speed up the Dynamic Time Warping calculation.
 * data_demo ---> Some example in-air-handwriting signals, collected using two devices.
-* meta_demo ---> Metadata of the datasets.
 
 The FMKit code library requires the following software packages
 
 * Python 3 (tested with Python 3.6.9)
 * NumPy (tested with NumPy 1.19.5)
-* Matplotlib (tested with 3.1.2)
+* Matplotlib (tested with Matplotlib 3.1.2)
 
-To use this code library, just download the Python modules under the "code_fmkit" folder and incorporate into your project.
+To use this code library, please download the Python modules under the "code_fmkit" folder and incorporate into your project. Please also check the [user manual](https://duolu-fmkit.github.io/manual_signal/).
 
 ## The Data Repository
 
@@ -52,10 +51,12 @@ Two devices are used (shown in the following figure): a wearable device (a custo
 
 ## Authors
 
-* **Duo Lu < duolu@asu.edu >** - main contributor, current maintainer of the project.
-* **Yuli Deng < ydeng19@asu.edu >** - contributor.
-* **Linzhen Luo < lluo21@asu.edu >** - contributor.
-* **Dijiang Huang < dijiang.huang@asu.edu >** - our academic advisor and sponsor.
+* **[Duo Lu](https://duolu.github.io/) <duolu@asu.edu>** - main contributor, current maintainer of the project.
+* **Yuli Deng <ydeng19@asu.edu>** - contributor.
+* **Linzhen Luo <lluo21@asu.edu>** - contributor.
+* **[Dijiang Huang](http://www.public.asu.edu/~dhuang8/) <dijiang.huang@asu.edu>** - our academic advisor and sponsor.
+
+For dataset usage application, please send an email directly to Duo Lu and Dr. Dijiang Huang, or to the mail list <fmkit@googlegroup.com>.
 
 ## Papers
 
@@ -68,7 +69,11 @@ Two devices are used (shown in the following figure): a wearable device (a custo
 
 ## License
 
-The code of this project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+The code of this project is released under the MIT License (see the [LICENSE.md](LICENSE.md) file for details).
+
+The "word-210" dataset is released under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+
+Other datasets including in-air-handwriting of user ID and passcode are released under the [FMKit License](https://docs.google.com/document/d/1AHX3lj1mjm4ZZEZTHNdm3xDmJAAWi7P6bIdLlBNZ8PA/edit?usp=sharing).
 
 ## Acknowledgments
 
