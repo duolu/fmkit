@@ -58,9 +58,14 @@ Two devices are used (shown in the following figure): a wearable device (a custo
 
 For dataset usage application, please send an email directly to Duo Lu and Dr. Dijiang Huang, or to the mail list `<fmkit@googlegroup.com>`.
 
-## Papers
+## Publications
+
+Please cite the following work if you use any of the resources provided by FMKit.
 
 * Duo Lu, Linzhen Luo, Dijiang Huang, Yezhou Yang, "**FMKit: An In-Air-Handwriting Analysis Library and Data Repository.**" *CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.* [[pdf]](/papers/fmkit.pdf) [[link]](https://mixedreality.cs.cornell.edu/workshop/2020/papers#block-93cead2afaf5f6895a67) [[video]](https://youtu.be/O3Jqq9yqJSE)
+
+Other publications:
+
 * Dijiang Huang, Duo Lu, "**Three-Dimensional In-The-Air Finger Motion based User Login Framework for Gesture Interface**", *US Patent 10,877,568, 2020.* [[link]](https://patents.google.com/patent/US10877568B2/en)
 * Duo Lu, Dijiang Huang, "**FMCode: A 3D In-the-Air Finger Motion Based User Login Framework for Gesture Interface.**" *arXiv preprint arXiv:1808.00130, 2018.* [[pdf]](/papers/fmcode.pdf) [[link]](https://arxiv.org/abs/1808.00130)
 * Duo Lu, Dijiang Huang, "**FMHash: Deep Hashing of In-Air-Handwriting for User Identification.**" *in Proceedings of the International Conference on Communication (ICC), 2019* [[pdf]](/papers/fmhash.pdf) [[link]](https://arxiv.org/abs/1806.03574) [[slides]](/papers/fmhash_slides.pdf) [[video]](https://www.youtube.com/watch?v=MyaWe7RX8oE)
