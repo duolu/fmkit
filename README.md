@@ -60,7 +60,7 @@ For dataset usage application, please send an email directly to Duo Lu and Dr. D
 
 ## Publications
 
-Please cite the following work if you use any of the resources provided by FMKit.
+Please cite the following work if you would like to use any of the resources provided by FMKit.
 
 * Duo Lu, Linzhen Luo, Dijiang Huang, Yezhou Yang, "**FMKit: An In-Air-Handwriting Analysis Library and Data Repository.**" *CVPR Workshop on Computer Vision for Augmented and Virtual Reality, 2020.* [[pdf]](/papers/fmkit.pdf) [[link]](https://mixedreality.cs.cornell.edu/workshop/2020/papers#block-93cead2afaf5f6895a67) [[video]](https://youtu.be/O3Jqq9yqJSE)
 
