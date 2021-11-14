@@ -68,6 +68,7 @@ Other publications:
 
 * Duo Lu, Dijiang Huang,"**Systems and Methods for a Multifactor User Identification and Authentication Framework for In-Air-Handwriting with Hand Geometry and Deep Hashing**", *US Patent 11,120,255, 2021.* [[link]](https://patents.google.com/patent/US20200250413A1/en)
 * Dijiang Huang, Duo Lu, "**Three-Dimensional In-The-Air Finger Motion based User Login Framework for Gesture Interface**", *US Patent 10,877,568, 2020.* [[link]](https://patents.google.com/patent/US10877568B2/en)
+* Duo Lu, Yuli Deng, Dijiang Huang, "**Global Feature Analysis and Comparative Evaluation of Freestyle In-Air-Handwriting Passcode for User Authentication**", *Annual Computer Security Applications Conference (ACSAC), 2021* [[link]](https://www.openconf.org/acsac2021/modules/request.php?module=oc_program&action=summary.php&id=260)
 * Duo Lu, Dijiang Huang, "**FMCode: A 3D In-the-Air Finger Motion Based User Login Framework for Gesture Interface.**" *arXiv preprint arXiv:1808.00130, 2018.* [[pdf]](/papers/fmcode.pdf) [[link]](https://arxiv.org/abs/1808.00130)
 * Duo Lu, Dijiang Huang, "**FMHash: Deep Hashing of In-Air-Handwriting for User Identification.**" *in Proceedings of the International Conference on Communication (ICC), 2019* [[pdf]](/papers/fmhash.pdf) [[link]](https://arxiv.org/abs/1806.03574) [[slides]](/papers/fmhash_slides.pdf) [[video]](https://www.youtube.com/watch?v=MyaWe7RX8oE)
 * Duo Lu, Dijiang Huang, Yuli Deng, and Adel Alshamrani. "**Multifactor user authentication with in-air-handwriting and hand geometry.**" *In 2018 International Conference on Biometrics (ICB), 2018.* [[pdf]](/papers/multifactor.pdf) [[link]](https://ieeexplore.ieee.org/document/8411230) [[slides]](/papers/multifactor_slides.pdf) [[poster]](/papers/multifactor_poster.pdf)
@@ -86,3 +87,5 @@ Other datasets including in-air-handwriting of user ID and passcode are released
 We would like to thank all participants and volunteers who helped us collecting the data.
 
 This project is supported by NSF CCRI award [#1925709](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1925709).
+
+This project is also supported by Arizona State University Fulton School of Engineering micro infrastrcture grant.
