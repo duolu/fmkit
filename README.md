@@ -66,6 +66,7 @@ Please cite the following work if you would like to use any of the resources pro
 
 Other publications:
 
+* Duo Lu, Dijiang Huang,"**Systems and Methods for a Multifactor User Identification and Authentication Framework for In-Air-Handwriting with Hand Geometry and Deep Hashing**", *US Patent 11,120,255, 2021.* [[link]](https://patents.google.com/patent/US20200250413A1/en)
 * Dijiang Huang, Duo Lu, "**Three-Dimensional In-The-Air Finger Motion based User Login Framework for Gesture Interface**", *US Patent 10,877,568, 2020.* [[link]](https://patents.google.com/patent/US10877568B2/en)
 * Duo Lu, Dijiang Huang, "**FMCode: A 3D In-the-Air Finger Motion Based User Login Framework for Gesture Interface.**" *arXiv preprint arXiv:1808.00130, 2018.* [[pdf]](/papers/fmcode.pdf) [[link]](https://arxiv.org/abs/1808.00130)
 * Duo Lu, Dijiang Huang, "**FMHash: Deep Hashing of In-Air-Handwriting for User Identification.**" *in Proceedings of the International Conference on Communication (ICC), 2019* [[pdf]](/papers/fmhash.pdf) [[link]](https://arxiv.org/abs/1806.03574) [[slides]](/papers/fmhash_slides.pdf) [[video]](https://www.youtube.com/watch?v=MyaWe7RX8oE)
