@@ -1,6 +1,6 @@
 # FMKit - A Library and Data Repository for In-Air-Handwriting Analysis
 
-FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See this [introduction video](https://youtu.be/O3Jqq9yqJSE) and a longer [demo](https://www.youtube.com/watch?v=asxqpF7dH10) on in-air-handwriting word recognition. Also, see the [documents](https://duolu-fmkit.github.io/). Currently, the "word-210" dataset is openly available [here](https://drive.google.com/drive/folders/1RXj0t8NMYt_Jr5lW-BIeAIxw4aX5VshV?usp=sharing) without the need of application. If you would like to use other datasets related to in-air-handwriting of ID and passcode, please fill this [application](https://docs.google.com/document/d/1AHX3lj1mjm4ZZEZTHNdm3xDmJAAWi7P6bIdLlBNZ8PA/edit?usp=sharing) send us an email (see the "authors" section below).
+FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See this [introduction video](https://youtu.be/O3Jqq9yqJSE) and a longer [demo](https://www.youtube.com/watch?v=asxqpF7dH10) on in-air-handwriting word recognition. Also, see the [documents](https://duolu-fmkit.github.io/). Currently, the "word-210" dataset is openly available [here](https://drive.google.com/drive/folders/1RXj0t8NMYt_Jr5lW-BIeAIxw4aX5VshV?usp=sharing) without the need of application.
 
 [![FMKit Demo](https://img.youtube.com/vi/O3Jqq9yqJSE/0.jpg)](https://www.youtube.com/watch?v=O3Jqq9yqJSE)
 
@@ -51,12 +51,11 @@ Two devices are used (shown in the following figure): a wearable device (a custo
 
 ## Authors
 
-* **[Duo Lu](https://duolu.github.io/) `<duolu@asu.edu>`** - main contributor, current maintainer of the project.
+* **Duo Lu `<duolu@asu.edu>`** - main contributor, current maintainer of the project.
 * **Yuli Deng `<ydeng19@asu.edu>`** - contributor.
 * **Linzhen Luo `<lluo21@asu.edu>`** - contributor.
-* **[Dijiang Huang](http://www.public.asu.edu/~dhuang8/) `<dijiang.huang@asu.edu>`** - our academic advisor and sponsor.
+* **Dijiang Huang `<dijiang.huang@asu.edu>`** - our academic advisor and sponsor.
 
-For dataset usage application, please send an email directly to Duo Lu and Dr. Dijiang Huang, or to the mail list `<fmkit@googlegroup.com>`.
 
 ## Publications
 
