@@ -1,6 +1,6 @@
 # FMKit - A Library and Data Repository for In-Air-Handwriting Analysis
 
-FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See this [introduction video](https://youtu.be/O3Jqq9yqJSE) and a longer [demo](https://www.youtube.com/watch?v=asxqpF7dH10) on in-air-handwriting word recognition. Also, see the [documents](https://duolu-fmkit.github.io/). Currently, the "word-210" dataset is openly available [here](https://drive.google.com/drive/folders/1RXj0t8NMYt_Jr5lW-BIeAIxw4aX5VshV?usp=sharing) without the need of application.
+FMKit is a library and data repository for finger motion based user login and in-air-handwriting analysis. We have also built a demo system based on them. See this [introduction video](https://youtu.be/O3Jqq9yqJSE) and a longer [demo](https://www.youtube.com/watch?v=asxqpF7dH10) on in-air-handwriting word recognition. Also, see the [documents](https://duolu-fmkit.github.io/) and a short [presentation](https://docs.google.com/presentation/d/1u6vR-xuSigPD7a3Ax-OcqyH2KsqzgCc4DYFRkImweMA/edit?usp=sharing). Currently, the "word-210" dataset is openly available [here](https://drive.google.com/drive/folders/1RXj0t8NMYt_Jr5lW-BIeAIxw4aX5VshV?usp=sharing) without the need of application.
 
 [![FMKit Demo](https://img.youtube.com/vi/O3Jqq9yqJSE/0.jpg)](https://www.youtube.com/watch?v=O3Jqq9yqJSE)
 
